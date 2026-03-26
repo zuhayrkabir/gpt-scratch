@@ -12,4 +12,3 @@ cuda/
 
 # Keep these
 !vocab.txt
-!wizard_of_oz.txt
