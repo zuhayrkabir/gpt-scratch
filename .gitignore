@@ -1,0 +1,15 @@
+# Large files - do not push these
+output_train.txt
+output_val.txt
+model-01.pkl
+model-best.pkl
+*.pkl
+*.txt
+__pycache__/
+.ipynb_checkpoints/
+cuda/
+*.pyc
+
+# Keep these
+!vocab.txt
+!wizard_of_oz.txt
