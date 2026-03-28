@@ -46,13 +46,13 @@ The model learns to generate coherent English text by predicting the next token 
 - **Tokenization:** Byte Pair Encoding (BPE) via tiktoken — same tokenizer as GPT-2
 - **Hardware:** NVIDIA RTX 5070 Laptop GPU (CUDA)
 - **Optimizer:** AdamW (lr=3e-4, cosine decay)
-- **Steps:** ~20,000
+- **Steps:** ~18,500
 - **Final loss:** 4.77 (BPE) / 1.41 (character-level)
 
 ### Loss Curve
 ![Training Loss Curve](loss_curve.png)
 
-Smooth, consistent downward trend over 20,000 steps from 6.0 → 4.7 with train and val loss tracking closely — no overfitting.
+Smooth, consistent downward trend over 18,000 steps from 6.0 → 4.7 with train and val loss tracking closely — no overfitting.
 
 ---
 
