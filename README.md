@@ -111,9 +111,10 @@ Clear progression from character-level gibberish to coherent English paragraphs 
 
 ```
 gpt-from-scratch/
-├── gpt-v2.ipynb        # Character-level transformer
-├── gpt-v3.ipynb        # BPE transformer with cosine LR and gradient clipping
-├── gpt-v4.ipynb        # Full pipeline with AMP, weight tying and top-k sampling
+├── gpt-v1.ipynb        # Bigram baseline — single layer, single head (character-level)
+├── gpt-v2.ipynb        # Full transformer — 8 layers, 8 heads (character-level)
+├── gpt-v3.ipynb        # BPE tokenization, cosine LR, gradient clipping
+├── gpt-v4.ipynb        # AMP, weight tying, top-k sampling — final version
 ├── training.py         # Standalone training script with argparse
 ├── chatbot.py          # Interactive text generation interface
 ├── data-extract.py     # OpenWebText data extraction and preprocessing
