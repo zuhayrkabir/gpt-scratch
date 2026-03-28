@@ -10,5 +10,14 @@ __pycache__/
 cuda/
 *.pyc
 
+
+# Do not push weights and biases
+.netrc
+.env
+*.env
+wandb/
+
+
+
 # Keep these
 !vocab.txt
